@@ -590,6 +590,13 @@ hr{
   .footer .container{
     width: 100%;
   }
+  .footer .container .info .your-mail{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .container .info .your-mail input , .footer .container .info .your-mail button{
+    width: 100%;
+  }
  }
 
 
@@ -643,6 +650,7 @@ hr{
   order: 3;
   width: 100%;
   }
+
  }
 @media (min-width: 1000px) { 
 .container{
