@@ -539,7 +539,7 @@ hr{
 
 /* Media Query */
 
-@media (min-width: 576px) {
+@media (min-width: 300px) {
   .container{
     flex-direction: column;
   }
