@@ -355,7 +355,6 @@ a {
   gap: 10px;
 }
 .contact .container .contact-info .info{
-  width: 49.5%;
   display: flex;
   align-items: center;
   background-color: #F5F5F5;
@@ -484,11 +483,9 @@ hr{
   gap: 15px;
 }
 .footer .container .info .your-mail input{
-  width: 80%;
   padding: 10px;
 }
 .footer .container .info .your-mail button{
-  width: 25%;
   padding: 10px 15px;
   background-color: var(--color);
   color: white;
@@ -601,6 +598,9 @@ hr{
 
 
 @media (min-width: 768px) { 
+.nav-bar .container ul{
+  display: flex;
+}
   .header .container .image{
     width: 50%;
     margin-top: 50px;
@@ -629,7 +629,7 @@ hr{
     flex-direction: row;
   }
   .contact .container .contact-info .info{
-    width: 45%;
+    width: calc((100% - 20px) / 2);
   }
   .contact .container .sending .inputs{
     flex-direction: column;
@@ -645,6 +645,12 @@ hr{
   }
   .footer .container .info{
   width: 45%;
+  }
+  .footer .container .info .your-mail{
+  flex-direction: row;
+  }
+  .footer .container .info .your-mail button{
+  width: 25% ;
   }
   .footer .container .mail{
   order: 3;
