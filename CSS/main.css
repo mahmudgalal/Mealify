@@ -601,12 +601,15 @@ hr{
 .nav-bar .container ul{
   display: flex;
 }
+.header .container{
+  justify-content: space-between;
+}
   .header .container .image{
-    width: 50%;
+    width: 40%;
     margin-top: 50px;
   }
   .header .container .text{
-    width: 80%;
+    width: 40%;
   }
   .header .container .text h1{
     font-size: 50px;
